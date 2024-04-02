@@ -24,7 +24,7 @@ export default function Signup() {
   return (
     <Section>
       <div className="container">
-        <h1>Signup</h1>
+        <h1>Login</h1>
         <input
           type="email"
           placeholder="Email"
@@ -42,6 +42,7 @@ export default function Signup() {
           <span>
             Don't have an account?
             <Link to="/signup"> Sign up</Link>
+            <br></br>
             <Link to="/forgotpassword"> Forgot Password?</Link>
           </span>
         </div>
